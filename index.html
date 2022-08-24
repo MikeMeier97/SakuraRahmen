@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Ramen</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="topbar">
+            <div>
+                <img class="menu-img" src="./img/saku.png">
+            </div>
+            <div class="menu">
+                <a id="menu-menu" href="#menu">MENU</a>
+                <a id="menu-location" href="#find">LOCATIONS</a>
+                <a id="menu-about" href="#">ABOUT</a>
+                <a href="tel:0911123456" class="phone-flag">
+                    <div class="phone">
+                        <img id="phone-icon" src="./img/phone.png">
+                        <span id="menu-phone">0911 123456</span>
+                    </div>
+                </a>
+                <div class="flag">
+                    <img onclick="translateGerman()" id="flag-icon" src="http://www.nationalflaggen.de/zeige-flagge-38977.html" border="0">
+                </div>
+                
+            </div>
+        </div>
+        <h1 class="title">
+            SAKURA RAMEN
+        </h1>
+        <span id="titel2-head" class="title-2">THE BEST RAMEN IN TOWN
+        </span>
+    </div>
+    <div class="order">
+        <h1 id="howtoorder" class="titel-order">HOW TO ORDER</h1>
+        <div class="order-list">
+            <div class="order-crate">
+                <img class="order-icon" src="./img/bowl_icon.jpg">
+                <h2 class="order-title" id="order-noodle">Pick <br> Your Noodle</h2>
+            </div>
+            <div class="order-crate">
+                <img class="order-icon" src="./img/broth_icon.png">
+                <h2 class="order-title" id="order-broth">Pick <br> Your Broth</h2>
+            </div>
+            <div class="order-crate">
+                <img class="order-icon" src="./img/eggs_icon.jpg">
+                <h2 class="order-title" id="add-toppings">Add Your <br> Your Toppings</h2>
+            </div>
+        </div>
+    </div>
+    <div class="our-menu" id="menu">
+        <h1 class="titel-menu" id="title-menu">OUR MENU</h1>
+        <div class="dishes">
+            <img class="ramen" src="img/r1.png">
+            <div class="meal-card">
+                <table class="table1">
+                    <th class="dishes-titel">Tonkasu Ramen</th>
+                    <tr>
+                        <td id="chicken-table1">Chicken</td>
+                        <td>11.95€</td>
+                    </tr>
+                    <tr>
+                        <td id="beef-table1">Beef</td>
+                        <td>12.95€</td>
+                    </tr>
+                    <tr>
+                        <td id="shrimp-table1">Shrimp</td>
+                        <td>13.95€</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="dishes-turned">
+
+            <div class="meal-card">
+                <table class="table1">
+                    <th class="dishes-titel">Spicy Miso Ramen</th>
+                    <tr>
+                        <td id="chicken-table2">Chicken</td>
+                        <td>11.95€</td>
+                    </tr>
+                    <tr>
+                        <td id="beef-table2">Beef</td>
+                        <td>12.95€</td>
+                    </tr>
+                    <tr>
+                        <td id="shrimp-table2">Shrimp</td>
+                        <td>13.95€</td>
+                    </tr>
+                </table>
+            </div>
+            <img class="ramen" src="img/r2.png">
+        </div>
+        <div class="dishes">
+            <img class="ramen" src="img/r3.png">
+            <div class="meal-card">
+                <table class="table1">
+                    <th class="dishes-titel">Shio Ramen</th>
+                    <tr>
+                        <td id="chicken-table3">Chicken</td>
+                        <td>11.95€</td>
+                    </tr>
+                    <tr>
+                        <td id="beef-table3">Beef</td>
+                        <td>12.95€</td>
+                    </tr>
+                    <tr>
+                        <td id="shrimp-table3">Shrimp</td>
+                        <td>13.95€</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="find-us" id="find">
+        <h1 class="titel-find-us" id="find-us-title">
+            FIND US AT
+        </h1>
+        <div class="location">
+            <img class="location-icon" src="./img/LO.png">
+            <p class="location-address"> Kapuzinerstraße 31, München, BY 80337</p>
+        </div>
+    </div>
+    <div class="google-maps">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.208152843837!2d11.559014615648602!3d48.125509079222574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1650916666554!5m2!1sde!2sde"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer">
+        <div class="footer-logo">
+            <img class="footer-icon" src="./img/saklogo.png">
+        </div>
+        <div class="social-media">
+            <img class="social-icon" src="./img/fb.png">
+            <img class="social-icon" src="./img/ins.png">
+            <img class="social-icon" src="./img/tripad.png">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
